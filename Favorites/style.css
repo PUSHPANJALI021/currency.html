@@ -1,0 +1,142 @@
+*{
+    margin: 0 ;
+padding: 0;
+box-sizing: border-box;
+ font-family: 'Poppins',
+ sans-serif;
+text-decoration:none;
+list-style:none;
+}
+.header{
+    position: fixed
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 35px 12%;
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+    .logo:hover{
+        color:orangered;
+        text-shadow: 0 0 25px orangered,
+                     0 0 50 px orangered;
+        transform: scale(1.1);
+    }
+    span{
+        color:orangered;
+    }
+    .navbar a{
+        font-size: 18px;
+        color: white;
+        font-weight: 500;
+        margin: 0 20px;
+        border-bottom: 3px solid transparent;
+        transition:0.3s ease;
+    }
+    .navbar a:hover,
+    .navbar a.active{
+        color: orangered;
+        border-color: white;
+        color:black;
+        border: 2px solid transparent;
+        border-radius: 8px;
+        font-size: 16px;
+        letter-spacing: 1px;
+        font-weight: 600;
+        transition: 0.3s ease;
+    }
+    .contact:hover{
+        background-color: orangered;
+        box-shadow: 0 0 25px orangered;
+    }
+    .home
+    {
+        width: 100%;
+        min-height: 100vh;
+        background-color: bisque;
+        display:flex;
+        align-items: center;
+        gap:7cm;
+        padding: 30px 12% 0;
+    }
+    .home-content
+    { max-width: 800px
+
+
+    }
+    .home-content h3
+    {font-size: 62px;
+        line-height: 1.2;
+
+    }
+    .home-content P{
+        font-size: 18px;
+        margin: 25px 0 30px;
+    }
+    .btn-box{
+        width: 345px;
+        display: flex;
+        gap: 2cm;
+    }
+.btn2{
+    padding: 15px
+    background-color: orangered;
+    color: white;
+    border:2px solid transparent;
+    border-radius: 8px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight:600;
+    transition:0.3s;
+    cursor: pointer;
+}
+.btn-2:hover{
+    background-color: white;
+    color: black;
+    border:2px solid black
+}
+.img-box img{
+    border-radius:50%;
+    width:550px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: orangered;
+}
+
+    ::-webkit-scrollbar-track{
+        background-color: black;
+    }
+    .about{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        padding:12% 8%;
+        gap:10cm;
+        background:black;
+    }
+    .about-img img {
+        position:relative;
+        width:550px;
+        box-shadow: 0 0 25px orange,
+                    0 0 50px orangered;
+        border-radius: 50%;            
+    }
+    .contact-form h2{text-align: center;
+         margin-top: 3em;
+          margin-bottom: 1em;
+           font-size: 36px; 
+    }
+    .contact-form
+         
+        
+
+              
+    
+            .contact-form form .input-box
+
+
